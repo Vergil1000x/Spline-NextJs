@@ -1,5 +1,4 @@
 import React, { Suspense } from "react";
-import Image from "next/image";
 import Text from "@/components/text";
 const Spline = React.lazy(() => import("@splinetool/react-spline"));
 

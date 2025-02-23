@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono, Yuji_Mai } from "next/font/google";
+import { Yuji_Mai } from "next/font/google";
 import "./globals.css";
 
 
