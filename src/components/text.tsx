@@ -5,7 +5,7 @@ export default function Text() {
   const text = ["輝", "け", "、", "未", "来"];
 
   return (
-    <div className="z-10 flex flex-col gap-7">
+    <div className="z-10 flex flex-col gap-7 xxx animate-pulse hover:animate-none transition-all">
       {text.map((el, i) => (
         <motion.div
           key={i}
@@ -15,7 +15,7 @@ export default function Text() {
             duration: 0.5,
             delay: i * 0.2, // Delay for each word based on index
           }}
-          className="animate-pulse"
+          className=""
         >
           {el}
         </motion.div>
